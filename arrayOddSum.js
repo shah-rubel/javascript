@@ -2,7 +2,7 @@ function add(numberArray){
     let sum =0;
     for(let i =0;i<numberArray.length;i++){
         const index = i;
-        const element = numberArray[i];
+        const element = numberArray[index];
         sum = sum + element;
     }
     return sum;
@@ -12,7 +12,7 @@ function oddSum(numberArray){
     let oddArray=[];
     for(let i =0;i<numberArray.length;i++){
         const index = i;
-        const element = numberArray[i];
+        const element = numberArray[index];
         if(element % 2 !== 0){
             oddArray.push(element);
         }
